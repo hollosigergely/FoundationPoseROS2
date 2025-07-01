@@ -56,3 +56,5 @@ COPY build_all_conda.sh .
 # Build environment
 RUN . ~/miniconda3/bin/activate && \
         bash build_all_conda.sh
+
+COPY config.yaml .
